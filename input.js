@@ -44,7 +44,6 @@ function getStroke(array) {
     });
     strokeArr.push(arr);
   });
-
   return strokeArr;
 }
 
@@ -82,7 +81,11 @@ heart.onclick = () => {
   const arr2 = [];
   const arr3 = [];
   const arr4 = [];
-
+  if(strokeSumArr1.length == 2)
+    strokeSumArr1[2] = 0;
+  if(strokeSumArr2.length == 2)
+    strokeSumArr2[2] = 0;
+  console.log(strokeSumArr1, strokeSumArr2)
   arr1[0] = (strokeSumArr1[0] + strokeSumArr2[0]) % 10;
   arr1[1] = (strokeSumArr1[1] + strokeSumArr2[0]) % 10;
   arr1[2] = (strokeSumArr1[1] + strokeSumArr2[1]) % 10;
