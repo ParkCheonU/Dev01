@@ -1,0 +1,22 @@
+{
+  "name": "dev01",
+  "version": "1.0.0",
+  "description": "대덕 소프트웨어 마이스터 고등학교 1 개발팀",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParkCheonU/Dev01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParkCheonU/Dev01/issues"
+  },
+  "homepage": "https://github.com/ParkCheonU/Dev01#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
