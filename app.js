@@ -7,4 +7,4 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/input.html");
 });
 
-app.listen(80);
+app.listen(8080);
